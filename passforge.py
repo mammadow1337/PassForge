@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PassForge â€” by : mammadow1337. MIT License."""
+"""PassForge ” by : mammadow1337. MIT License."""
 import argparse
 import math
 import secrets
@@ -14,7 +14,11 @@ AMBIGUOUS = set("Il1O0o")
 
 
 def print_banner():
-    print("\n  PASSFORGE\n  by : mammadow1337\n  Password & Passphrase Generator\n")
+    print()
+    print("[ PASSFORGE                     ]")
+    print("[ MODE   : PASSWORD GENERATOR   ]")
+    print("[ AUTHOR : mammadow1337         ]")
+    print()
 
 
 def show_result(password, entropy, kind):
