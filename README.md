@@ -32,6 +32,7 @@ It uses Python's built-in `secrets` module to generate cryptographically secure 
 git clone https://github.com/mammadow1337/PassForge.git
 cd PassForge
 python -m venv .venv
+pip install -r requirements.txt
 
 # Linux / macOS
 source .venv/bin/activate
